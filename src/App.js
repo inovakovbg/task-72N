@@ -4,7 +4,7 @@ import Tags from "./Tags"
 function App() {
   return (
 
-<Tags name={["boomdotdev", "task", "tags", "react"]} />
+<Tags name={["boomdotdev" , "task" , "tags" , "react"]} />
     
   );
 }
