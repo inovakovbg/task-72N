@@ -14,7 +14,11 @@ export default function Tags(props) {
     return (
         <ul className="tags">
                         
-           {tags.map((tag,key) => (<li key={key} className="tag">#{tag}</li>))}
+           {tags.map((tag,key) => 
+
+           
+           
+           (<li key={key} className="tag"> #{tag} </li>))}
            
         </ul>
     );
