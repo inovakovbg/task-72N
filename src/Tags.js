@@ -4,7 +4,7 @@ import React from "react";
 
 export default function Tags(props) {
 
-    const tags=props.name ;
+    const tags=props.tags ;
     // const key=props.index ;
 
     console.log(tags)
@@ -14,7 +14,8 @@ export default function Tags(props) {
     return (
         <ul className="tags">
                         
-           {tags.map((tag,key) =>   
+           {tags.map((tag,key) => 
+       
         
            (<li key={key} className="tag"> #{tag} </li>))}
            

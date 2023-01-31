@@ -5,7 +5,7 @@ import React from "react";
 function App() {
   return (
 
-<Tags name={["boomdotdev" , "task" , "tags" , "react"]} />
+<Tags tags={["boomdotdev" , "task" , "tags" , "react"]} />
     
   );
 }
